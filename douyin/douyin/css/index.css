@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px
+  font-family: arial
+}
+
+
+.page-container{
+  position: relative;
+  height: 100%;
+}
+
+.page-video-bg{
+  height: 100%;
+}
+
+.page-video-bg video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.daohan {
+  padding-top: 20px；
+  padding-right: 10px;
+  text-align: right;
+  width: 100%;
+  height: 120px;
+}
+.daohan a{
+  color: #fff;
+}
+
+.page-photo{
+  padding-top: 20px；
+  padding-right: 10px;
+  text-align: right;
+}
+
+.slogan{
+  float: right;
+    width: 450px;
+    margin-bottom: 50px
+}
+
+.slogan img{
+  position: absolute;
+  top:40%;
+  right: 10%;
+  width: 450px;
+  height: 79px;
+}
+
+.page-footer{
+  font-size: 14px;
+  width: 100%;
+  background: transparent;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  margin-bottom: 5px
+}
+
+.page-footer p{
+  width: 100%;
+  height: 30px
+}
+
+.page-footer a{
+  color: #fff;
+}
+
+.page-button{
+  display: flex;
+  position: absolute;
+  top:55%;
+  right: 10%;
+  width: 330px;
+  height: 50px;
+}
+
+.android img{
+  width: 130px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.appstore img{
+  width: 130px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.QRcode img{
+  width:50px;
+  height:50px;
+}
+
+.logo {
+  padding-top: 10px;
+  padding-left: 75px;
+}
+
+
+
